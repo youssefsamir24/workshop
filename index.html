@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CRUD || </title>
+</head>
+<body>
+    
+    <div class="container bg-info vh-100">
+        <form id="formy" action="">
+            <label for="uNmae"> name:</label>
+            <input class="form-control mb-3" type="text" name="name" id="uNmae" placeholder="ex: youssef samir">
+            <label for="url"> url:</label>
+            <input class="form-control mb-3" type="text" name="url" id="url" placeholder="ex: google.com">
+            <button onclick="addUser()" type="submit" class="btn btn-outline-danger my-3 w-100">Submit</button>
+        </form>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">URL</th>
+                <th scope="col">Visit</th>
+                <th scope="col">Delete</th>
+              </tr>
+            </thead>
+            <tbody id="bodyy">
+              
+            </tbody>
+          </table>
+
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
